@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>weather app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <div class="weatherContainer">
+        <h2 class="appHeading">Weather App</h2>
+        <form action="" id="weatherForm">
+            <input type="text" placeholder="Enter your city here...">
+            <button type="submit" class="btnSearch">
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+            </button>
+        </form>
+        <h2 class="city"></h2>
+        <div id="weatherImage">
+            <img src="" alt="">
+        </div>
+        <p class="weatherMain"></p>
+        <h2 id="temp"></h2>
+        <div class="windHumidity">
+            <h4 class="wind"></h4>
+            <h4 class="humidity"></h4>
+        </div>
+        <div class="todayDates"></div>
+        <div class="todayTime"></div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
